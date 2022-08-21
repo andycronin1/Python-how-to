@@ -1,11 +1,7 @@
 
 
 
-
-#We have optimized this code for conceptual simplicity, so that it is useful as a teaching tool. It is not very efficient, because it always stores cached contents in a file, rather than saving it in memory. If you are ever implementing the caching pattern just for the duration of a program’s run, you might want to save cached content in a python dictionary in memory rather than writing it to a file.
-
-
-
+#This code has been optimised  for conceptual simplicity, so that it is useful as a teaching tool. It is not very efficient, because it always stores cached contents in a file, rather than saving it in memory. If you are ever implementing the caching pattern just for the duration of a program’s run, you might want to save cached content in a python dictionary in memory rather than writing it to a file.
 
 
 import requests
