@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------------------------
+API use
+--------------------------------------------------------------------------------------------------
+
+Steps: 
+
+What is the baseurl?
+
+What keys should you provide in the dictionary you pass for the params parameter?
+
+What values should you provide associated with those keys?
+
+Do you need to authenticate yourself as a licensed user of the API and, if so, how?
+
+What is the structure and meaning of the data that will be provided?
+
+---------------------------------------------------------------------------------------------------
+Request cookbook
+---------------------------------------------------------------------------------------------------
+
+Make the appropriate call to requests.get(). If you have trouble, print out the URL that’s generated and work with it in the browser.
+
+Extract content from response object, by accessing the .text attribute and calling json.loads if the string is in json format.
+
+Process the data you’ve extracted. Often, when you get back data in json format, it will be a highly nested data structure. 
+You may only need a little of that data. You may want to review the chapter on nested data and nested iteration, especially the section on the cycle of Understand. Extract. Repeat.
